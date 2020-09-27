@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections action="DELETE" form_id="061d88ac2fe31010e6401e282799b692" sys_domain="global" table="x_530258_my_travel_travels" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-09-25 21:03:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4a1d88ac2fe31010e6401e282799b6d3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_530258_my_travel_travels" name="x_530258_my_travel_travels" sys_domain="global" view="Default view">061d88ac2fe31010e6401e282799b692</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_530258_my_travel_travels" sys_domain="global" view="Default view">06c244e42fe31010e6401e282799b666</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-09-25 21:03:32</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_530258_my_travel_travels</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-09-25 21:03:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>061d88ac2fe31010e6401e282799b692</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_530258_my_travel_travels</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="My Travels" source="x_530258_my_travel">60ec43c02fa35010e6401e282799b612</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="My Travels">60ec43c02fa35010e6401e282799b612</sys_scope>
+            <sys_update_name>sys_ui_form_sections_061d88ac2fe31010e6401e282799b692</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-09-25 21:03:32</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="My Travels">60ec43c02fa35010e6401e282799b612</application>
+        <file_path/>
+        <instance_id>9f9c4f3cdb899b0c439ef70fbf961913</instance_id>
+        <instance_name>dev53617</instance_name>
+        <name>sys_ui_form_sections_061d88ac2fe31010e6401e282799b692</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_form_sections form_id="061d88ac2fe31010e6401e282799b692" sys_domain="global" table="x_530258_my_travel_travels" version="3"><sys_ui_form_section action="INSERT_OR_UPDATE"><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2020-09-25 21:03:32</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>4a1d88ac2fe31010e6401e282799b6d3</sys_id><sys_mod_count>0</sys_mod_count><sys_overrides/><sys_ui_form display_value="x_530258_my_travel_travels" name="x_530258_my_travel_travels" sys_domain="global" view="Default view">061d88ac2fe31010e6401e282799b692</sys_ui_form><sys_ui_section caption="NULL" display_value="" name="x_530258_my_travel_travels" sys_domain="global" view="Default view">06c244e42fe31010e6401e282799b666</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-09-25 21:03:32</sys_updated_on></sys_ui_form_section><sys_ui_form action="INSERT_OR_UPDATE"><name>x_530258_my_travel_travels</name><roles/><sys_class_name>sys_ui_form</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-09-25 21:03:32</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>061d88ac2fe31010e6401e282799b692</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_530258_my_travel_travels</sys_name><sys_overrides/><sys_package display_value="My Travels" source="x_530258_my_travel">60ec43c02fa35010e6401e282799b612</sys_package><sys_policy/><sys_scope display_value="My Travels">60ec43c02fa35010e6401e282799b612</sys_scope><sys_update_name>sys_ui_form_sections_061d88ac2fe31010e6401e282799b692</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-09-25 21:03:32</sys_updated_on><sys_user/><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_form></sys_ui_form_sections></record_update>]]></payload>
+        <payload_hash>994784558</payload_hash>
+        <record_name>Travels</record_name>
+        <reverted_from/>
+        <source>7d2dcf802fa35010e6401e282799b63a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-27 07:16:03</sys_created_on>
+        <sys_id>cce2a73c2fe75010e6401e282799b656</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>174ce6b283d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-27 07:16:03</sys_updated_on>
+        <type>Form Sections</type>
+        <update_guid>48e2a73c47e750107e3826d3bc1b0356</update_guid>
+        <update_guid_history>48e2a73c47e750107e3826d3bc1b0356:994784558,3aced378bbe75010022e66ec582f392b:-1095771176,485a94280d27101084ad02983bc97a80:994784558,ab485ca40c271010342082c7d7a862d7:-1313751087,acd698647d271010f5d742831ad47bfd:-1344453122,71f25ca087271010894935d225b65085:-1313751087,bdf25ca0db271010a84e6ca3562a8980:994784558,021d88acffe310109bad589cdad755d6:-960684025,c61d88ac1be3101073da8b09703e2ed2:1234947464</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-27 07:19:35</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_form">sys_ui_form</sys_db_object>
+        <sys_id>09a0d668764a4bd687d63959e57361e4</sys_id>
+        <sys_metadata>061d88ac2fe31010e6401e282799b692</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_530258_my_travel_travels</sys_name>
+        <sys_package display_value="My Travels" source="x_530258_my_travel">60ec43c02fa35010e6401e282799b612</sys_package>
+        <sys_parent display_value="">53aebfd02fe31010e6401e282799b660</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="My Travels">60ec43c02fa35010e6401e282799b612</sys_scope>
+        <sys_scope_delete display_value="">2308881f79d044a8b03a751b37bcee40</sys_scope_delete>
+        <sys_update_name>sys_ui_form_sections_061d88ac2fe31010e6401e282799b692</sys_update_name>
+        <sys_update_version display_value="sys_ui_form_sections_061d88ac2fe31010e6401e282799b692">cce2a73c2fe75010e6401e282799b656</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-27 07:19:35</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="state_province" label="State/province" language="en" table="x_530258_my_travel_travels">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>state_province</element>
+            <help/>
+            <hint/>
+            <label>State/province</label>
+            <language>en</language>
+            <name>x_530258_my_travel_travels</name>
+            <plural>State/provinces</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-09-27 08:00:45</sys_created_on>
+            <sys_id>0f1deff02f2b5010e6401e282799b69e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>State/province</sys_name>
+            <sys_package display_value="My Travels" source="x_530258_my_travel">60ec43c02fa35010e6401e282799b612</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="My Travels">60ec43c02fa35010e6401e282799b612</sys_scope>
+            <sys_update_name>sys_documentation_x_530258_my_travel_travels_state_province_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-09-27 08:00:45</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="Travels" max_length="40" name="x_530258_my_travel_travels" type="collection">
+        <element attributes="encode_utf8=false" label="Additional approver" max_length="32" name="additional_approver" reference="sys_user" type="reference"/>
+        <element attributes="encode_utf8=false" label="Approver" max_length="32" name="approver" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="City" max_length="40" name="city" type="string"/>
+        <element attributes="encode_utf8=false" label="Country" max_length="32" name="country" reference="core_country" type="reference"/>
+        <element label="Days requested" max_length="40" name="days" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Date from" mandatory="true" max_length="40" name="from" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Local POC" max_length="40" name="local_poc" type="string"/>
+        <element label="Overseas travel" max_length="40" name="overseas" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Phone number" max_length="40" name="phone_poc" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Purpose of travel" max_length="40" name="purpose" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Conference" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Consulting" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="Meeting" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="Other" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="Recruiting" sequence="4" value="5"/>
+                <element inactive_on_update="false" label="Site visit" sequence="5" value="6"/>
+                <element inactive_on_update="false" label="Team travel" sequence="6" value="7"/>
+                <element inactive_on_update="false" label="Training" sequence="7" value="8"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="State/province" max_length="40" name="state_province" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Street address" max_length="200" name="street_address" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="To" mandatory="true" max_length="40" name="to" type="glide_date"/>
+    </element>
+</database>

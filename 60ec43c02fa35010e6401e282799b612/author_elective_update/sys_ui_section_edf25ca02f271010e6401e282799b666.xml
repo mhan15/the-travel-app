@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="Destination" section_id="edf25ca02f271010e6401e282799b666" sys_domain="global" table="x_530258_my_travel_travels" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>overseas</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-09-25 22:00:33</sys_created_on>
+            <sys_id>592a14282f271010e6401e282799b629</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Destination" display_value="Destination" name="x_530258_my_travel_travels" sys_domain="global" view="Default view">edf25ca02f271010e6401e282799b666</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-09-25 22:00:33</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-09-25 22:00:33</sys_created_on>
+            <sys_id>d92a14282f271010e6401e282799b629</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Destination" display_value="Destination" name="x_530258_my_travel_travels" sys_domain="global" view="Default view">edf25ca02f271010e6401e282799b666</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-09-25 22:00:33</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-09-25 22:00:33</sys_created_on>
+            <sys_id>5d2a14282f271010e6401e282799b629</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Destination" display_value="Destination" name="x_530258_my_travel_travels" sys_domain="global" view="Default view">edf25ca02f271010e6401e282799b666</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-09-25 22:00:33</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>street</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-09-25 22:00:33</sys_created_on>
+            <sys_id>dd2a14282f271010e6401e282799b629</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Destination" display_value="Destination" name="x_530258_my_travel_travels" sys_domain="global" view="Default view">edf25ca02f271010e6401e282799b666</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-09-25 22:00:33</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-09-25 22:00:33</sys_created_on>
+            <sys_id>512a14282f271010e6401e282799b62a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Destination" display_value="Destination" name="x_530258_my_travel_travels" sys_domain="global" view="Default view">edf25ca02f271010e6401e282799b666</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-09-25 22:00:33</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>city</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-09-25 22:00:33</sys_created_on>
+            <sys_id>d12a14282f271010e6401e282799b62a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Destination" display_value="Destination" name="x_530258_my_travel_travels" sys_domain="global" view="Default view">edf25ca02f271010e6401e282799b666</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-09-25 22:00:33</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>state_province</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-09-25 22:00:33</sys_created_on>
+            <sys_id>552a14282f271010e6401e282799b62a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Destination" display_value="Destination" name="x_530258_my_travel_travels" sys_domain="global" view="Default view">edf25ca02f271010e6401e282799b666</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-09-25 22:00:33</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>zipcode</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-09-25 22:00:33</sys_created_on>
+            <sys_id>d52a14282f271010e6401e282799b62a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Destination" display_value="Destination" name="x_530258_my_travel_travels" sys_domain="global" view="Default view">edf25ca02f271010e6401e282799b666</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-09-25 22:00:33</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>country</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-09-25 22:00:33</sys_created_on>
+            <sys_id>592a14282f271010e6401e282799b62a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Destination" display_value="Destination" name="x_530258_my_travel_travels" sys_domain="global" view="Default view">edf25ca02f271010e6401e282799b666</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-09-25 22:00:33</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-09-25 22:00:33</sys_created_on>
+            <sys_id>d92a14282f271010e6401e282799b62a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Destination" display_value="Destination" name="x_530258_my_travel_travels" sys_domain="global" view="Default view">edf25ca02f271010e6401e282799b666</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-09-25 22:00:33</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>local_poc</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-09-25 22:00:33</sys_created_on>
+            <sys_id>5d2a14282f271010e6401e282799b62a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Destination" display_value="Destination" name="x_530258_my_travel_travels" sys_domain="global" view="Default view">edf25ca02f271010e6401e282799b666</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-09-25 22:00:33</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>local_ph</element>
+            <position>11</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-09-25 22:00:33</sys_created_on>
+            <sys_id>dd2a14282f271010e6401e282799b62a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Destination" display_value="Destination" name="x_530258_my_travel_travels" sys_domain="global" view="Default view">edf25ca02f271010e6401e282799b666</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-09-25 22:00:33</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>12</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-09-25 22:00:33</sys_created_on>
+            <sys_id>512a14282f271010e6401e282799b62b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Destination" display_value="Destination" name="x_530258_my_travel_travels" sys_domain="global" view="Default view">edf25ca02f271010e6401e282799b666</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-09-25 22:00:33</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_string_25</element>
+            <position>13</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-09-25 22:00:33</sys_created_on>
+            <sys_id>d12a14282f271010e6401e282799b62b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Destination" display_value="Destination" name="x_530258_my_travel_travels" sys_domain="global" view="Default view">edf25ca02f271010e6401e282799b666</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-09-25 22:00:33</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>description</element>
+            <position>14</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-09-25 22:00:33</sys_created_on>
+            <sys_id>552a14282f271010e6401e282799b62b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Destination" display_value="Destination" name="x_530258_my_travel_travels" sys_domain="global" view="Default view">edf25ca02f271010e6401e282799b666</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-09-25 22:00:33</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>Destination</caption>
+            <header>false</header>
+            <name>x_530258_my_travel_travels</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-09-25 21:29:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>edf25ca02f271010e6401e282799b666</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_530258_my_travel_travels</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="My Travels" source="x_530258_my_travel">60ec43c02fa35010e6401e282799b612</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="My Travels">60ec43c02fa35010e6401e282799b612</sys_scope>
+            <sys_update_name>sys_ui_section_edf25ca02f271010e6401e282799b666</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-09-25 21:29:11</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="My Travels">60ec43c02fa35010e6401e282799b612</application>
+        <file_path/>
+        <instance_id>9f9c4f3cdb899b0c439ef70fbf961913</instance_id>
+        <instance_name>dev53617</instance_name>
+        <name>sys_ui_section_edf25ca02f271010e6401e282799b666</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="Destination" section_id="edf25ca02f271010e6401e282799b666" sys_domain="global" table="x_530258_my_travel_travels" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>overseas</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2020-09-25 22:00:33</sys_created_on><sys_id>592a14282f271010e6401e282799b629</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Destination" display_value="Destination" name="x_530258_my_travel_travels" sys_domain="global" view="Default view">edf25ca02f271010e6401e282799b666</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-09-25 22:00:33</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2020-09-25 22:00:33</sys_created_on><sys_id>d92a14282f271010e6401e282799b629</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Destination" display_value="Destination" name="x_530258_my_travel_travels" sys_domain="global" view="Default view">edf25ca02f271010e6401e282799b666</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-09-25 22:00:33</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.end_split</element><position>2</position><sys_created_by>admin</sys_created_by><sys_created_on>2020-09-25 22:00:33</sys_created_on><sys_id>5d2a14282f271010e6401e282799b629</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Destination" display_value="Destination" name="x_530258_my_travel_travels" sys_domain="global" view="Default view">edf25ca02f271010e6401e282799b666</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-09-25 22:00:33</sys_updated_on><sys_user/><type>.end_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>street</element><position>3</position><sys_created_by>admin</sys_created_by><sys_created_on>2020-09-25 22:00:33</sys_created_on><sys_id>dd2a14282f271010e6401e282799b629</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Destination" display_value="Destination" name="x_530258_my_travel_travels" sys_domain="global" view="Default view">edf25ca02f271010e6401e282799b666</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-09-25 22:00:33</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.begin_split</element><position>4</position><sys_created_by>admin</sys_created_by><sys_created_on>2020-09-25 22:00:33</sys_created_on><sys_id>512a14282f271010e6401e282799b62a</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Destination" display_value="Destination" name="x_530258_my_travel_travels" sys_domain="global" view="Default view">edf25ca02f271010e6401e282799b666</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-09-25 22:00:33</sys_updated_on><sys_user/><type>.begin_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>city</element><position>5</position><sys_created_by>admin</sys_created_by><sys_created_on>2020-09-25 22:00:33</sys_created_on><sys_id>d12a14282f271010e6401e282799b62a</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Destination" display_value="Destination" name="x_530258_my_travel_travels" sys_domain="global" view="Default view">edf25ca02f271010e6401e282799b666</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-09-25 22:00:33</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>state_province</element><position>6</position><sys_created_by>admin</sys_created_by><sys_created_on>2020-09-25 22:00:33</sys_created_on><sys_id>552a14282f271010e6401e282799b62a</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Destination" display_value="Destination" name="x_530258_my_travel_travels" sys_domain="global" view="Default view">edf25ca02f271010e6401e282799b666</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-09-25 22:00:33</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>zipcode</element><position>7</position><sys_created_by>admin</sys_created_by><sys_created_on>2020-09-25 22:00:33</sys_created_on><sys_id>d52a14282f271010e6401e282799b62a</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Destination" display_value="Destination" name="x_530258_my_travel_travels" sys_domain="global" view="Default view">edf25ca02f271010e6401e282799b666</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-09-25 22:00:33</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>country</element><position>8</position><sys_created_by>admin</sys_created_by><sys_created_on>2020-09-25 22:00:33</sys_created_on><sys_id>592a14282f271010e6401e282799b62a</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Destination" display_value="Destination" name="x_530258_my_travel_travels" sys_domain="global" view="Default view">edf25ca02f271010e6401e282799b666</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-09-25 22:00:33</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>9</position><sys_created_by>admin</sys_created_by><sys_created_on>2020-09-25 22:00:33</sys_created_on><sys_id>d92a14282f271010e6401e282799b62a</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Destination" display_value="Destination" name="x_530258_my_travel_travels" sys_domain="global" view="Default view">edf25ca02f271010e6401e282799b666</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-09-25 22:00:33</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>local_poc</element><position>10</position><sys_created_by>admin</sys_created_by><sys_created_on>2020-09-25 22:00:33</sys_created_on><sys_id>5d2a14282f271010e6401e282799b62a</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Destination" display_value="Destination" name="x_530258_my_travel_travels" sys_domain="global" view="Default view">edf25ca02f271010e6401e282799b666</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-09-25 22:00:33</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>local_ph</element><position>11</position><sys_created_by>admin</sys_created_by><sys_created_on>2020-09-25 22:00:33</sys_created_on><sys_id>dd2a14282f271010e6401e282799b62a</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Destination" display_value="Destination" name="x_530258_my_travel_travels" sys_domain="global" view="Default view">edf25ca02f271010e6401e282799b666</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-09-25 22:00:33</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.end_split</element><position>12</position><sys_created_by>admin</sys_created_by><sys_created_on>2020-09-25 22:00:33</sys_created_on><sys_id>512a14282f271010e6401e282799b62b</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Destination" display_value="Destination" name="x_530258_my_travel_travels" sys_domain="global" view="Default view">edf25ca02f271010e6401e282799b666</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-09-25 22:00:33</sys_updated_on><sys_user/><type>.end_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_string_25</element><position>13</position><sys_created_by>admin</sys_created_by><sys_created_on>2020-09-25 22:00:33</sys_created_on><sys_id>d12a14282f271010e6401e282799b62b</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Destination" display_value="Destination" name="x_530258_my_travel_travels" sys_domain="global" view="Default view">edf25ca02f271010e6401e282799b666</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-09-25 22:00:33</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>description</element><position>14</position><sys_created_by>admin</sys_created_by><sys_created_on>2020-09-25 22:00:33</sys_created_on><sys_id>552a14282f271010e6401e282799b62b</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Destination" display_value="Destination" name="x_530258_my_travel_travels" sys_domain="global" view="Default view">edf25ca02f271010e6401e282799b666</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-09-25 22:00:33</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>Destination</caption><header>false</header><name>x_530258_my_travel_travels</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-09-25 21:29:11</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>edf25ca02f271010e6401e282799b666</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_530258_my_travel_travels</sys_name><sys_overrides/><sys_package display_value="My Travels" source="x_530258_my_travel">60ec43c02fa35010e6401e282799b612</sys_package><sys_policy/><sys_scope display_value="My Travels">60ec43c02fa35010e6401e282799b612</sys_scope><sys_update_name>sys_ui_section_edf25ca02f271010e6401e282799b666</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-09-25 21:29:11</sys_updated_on><sys_user/><title>false</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>1862004298</payload_hash>
+        <record_name>Travels</record_name>
+        <reverted_from/>
+        <source>7d2dcf802fa35010e6401e282799b63a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-25 22:00:33</sys_created_on>
+        <sys_id>592a14282f271010e6401e282799b62d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>174c74839f60000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-25 22:00:33</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>d12a142824271010fcc4e2dc4c08422d</update_guid>
+        <update_guid_history>d12a142824271010fcc4e2dc4c08422d:1862004298,27485ca4f1271010e68df3e7ec2b80ea:-1682184026,2e241ce0842710103fab778796866617:503005751,09a354e05a27101000f7a9338cb4a1ab:-1939868425,39f25ca005271010fd326af2c5198b9a:1858427572</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-25 22:01:17</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>3079c1c190f0467789a2f3506d9cf689</sys_id>
+        <sys_metadata>edf25ca02f271010e6401e282799b666</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Destination</sys_name>
+        <sys_package display_value="My Travels" source="x_530258_my_travel">60ec43c02fa35010e6401e282799b612</sys_package>
+        <sys_parent display_value="">53aebfd02fe31010e6401e282799b660</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="My Travels">60ec43c02fa35010e6401e282799b612</sys_scope>
+        <sys_scope_delete display_value="">2308881f79d044a8b03a751b37bcee40</sys_scope_delete>
+        <sys_update_name>sys_ui_section_edf25ca02f271010e6401e282799b666</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_edf25ca02f271010e6401e282799b666">592a14282f271010e6401e282799b62d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-25 22:01:17</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

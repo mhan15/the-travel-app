@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="DELETE" field="state" table="x_530258_my_travel_travels" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Rejected</label>
+            <language>en</language>
+            <name>x_530258_my_travel_travels</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-09-25 21:07:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f7fd04ec2fe31010e6401e282799b6db</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-09-25 21:15:26</sys_updated_on>
+            <value>7</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <name>x_530258_my_travel_travels</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-09-25 21:07:28</sys_created_on>
+            <sys_id>b3fd04ec2fe31010e6401e282799b6d8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>state</sys_name>
+            <sys_package display_value="My Travels" source="x_530258_my_travel">60ec43c02fa35010e6401e282799b612</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="My Travels">60ec43c02fa35010e6401e282799b612</sys_scope>
+            <sys_update_name>sys_choice_x_530258_my_travel_travels_state</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-09-25 21:07:28</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="My Travels">60ec43c02fa35010e6401e282799b612</application>
+        <file_path/>
+        <instance_id>9f9c4f3cdb899b0c439ef70fbf961913</instance_id>
+        <instance_name>dev53617</instance_name>
+        <name>sys_choice_x_530258_my_travel_travels_state</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_choice action="INSERT_OR_UPDATE" field="state" table="x_530258_my_travel_travels" version="3"><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>state</element><hint/><inactive>true</inactive><label>Rejected</label><language>en</language><name>x_530258_my_travel_travels</name><sequence>4</sequence><synonyms/><sys_created_by>admin</sys_created_by><sys_created_on>2020-09-25 21:07:28</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>f7fd04ec2fe31010e6401e282799b6db</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-09-25 21:15:26</sys_updated_on><value>7</value></sys_choice><sys_choice_set action="INSERT_OR_UPDATE"><element>state</element><name>x_530258_my_travel_travels</name><sys_class_name>sys_choice_set</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-09-25 21:07:28</sys_created_on><sys_id>b3fd04ec2fe31010e6401e282799b6d8</sys_id><sys_mod_count>0</sys_mod_count><sys_name>state</sys_name><sys_package display_value="My Travels" source="x_530258_my_travel">60ec43c02fa35010e6401e282799b612</sys_package><sys_policy/><sys_scope display_value="My Travels">60ec43c02fa35010e6401e282799b612</sys_scope><sys_update_name>sys_choice_x_530258_my_travel_travels_state</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-09-25 21:07:28</sys_updated_on></sys_choice_set></sys_choice></record_update>]]></payload>
+        <payload_hash>523329032</payload_hash>
+        <record_name>x_530258_my_travel_travels.state</record_name>
+        <reverted_from/>
+        <source>7d2dcf802fa35010e6401e282799b63a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-27 07:19:35</sys_created_on>
+        <sys_id>4cb3637c2fe75010e6401e282799b6ce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>174ce6e67050000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-27 07:19:35</sys_updated_on>
+        <type>Choice list</type>
+        <update_guid>84b3637c4ee7501051fbd665a3f842ce</update_guid>
+        <update_guid_history>84b3637c4ee7501051fbd665a3f842ce:523329032,8cb3637c20e7501070f894682d9a61cb:-598853327,84b3637ca9e7501099c95261ccbd9ec9:-615349159,8cb3637cc4e75010fc074fe6a853aec6:1438111066,94df882026271010fe03918eb9a6d6aa:-666771730,37fd04ec70e31010460033f094811cdd:-1527183613</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-27 07:19:35</sys_created_on>
+        <sys_db_object display_value="" name="sys_choice_set">sys_choice_set</sys_db_object>
+        <sys_id>b3fd04ec2fe31010e6401e282799b6d8</sys_id>
+        <sys_metadata>b3fd04ec2fe31010e6401e282799b6d8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>state</sys_name>
+        <sys_package display_value="My Travels" source="x_530258_my_travel">60ec43c02fa35010e6401e282799b612</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="My Travels">60ec43c02fa35010e6401e282799b612</sys_scope>
+        <sys_scope_delete display_value="">2308881f79d044a8b03a751b37bcee40</sys_scope_delete>
+        <sys_update_name>sys_choice_x_530258_my_travel_travels_state</sys_update_name>
+        <sys_update_version display_value="sys_choice_x_530258_my_travel_travels_state">4cb3637c2fe75010e6401e282799b6ce</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-27 07:19:35</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
