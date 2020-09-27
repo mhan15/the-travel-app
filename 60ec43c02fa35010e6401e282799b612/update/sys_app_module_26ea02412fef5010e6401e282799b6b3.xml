@@ -4,37 +4,39 @@
         <application display_value="My Travel">7d1ff3142fe31010e6401e282799b611</application>
         <assessment/>
         <device_type/>
-        <filter/>
+        <filter table="x_530258_my_travel_travels">active=true^EQ<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
         <hint/>
         <homepage/>
         <image/>
         <link_type>LIST</link_type>
         <map_page/>
-        <mobile_title>Travels</mobile_title>
+        <mobile_title>ra</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
         <name>x_530258_my_travel_travels</name>
-        <order>200</order>
+        <order>150</order>
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
-        <roles>x_530258_my_travel.travels_user,x_530258_my_travel.admin</roles>
+        <roles>x_530258_my_travel.user,x_530258_my_travel.admin</roles>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-09-25 20:02:21</sys_created_on>
+        <sys_created_on>2020-09-27 19:31:39</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>b51ff3142fe31010e6401e282799b615</sys_id>
-        <sys_mod_count>4</sys_mod_count>
-        <sys_name>My Travels</sys_name>
+        <sys_id>26ea02412fef5010e6401e282799b6b3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My Requests</sys_name>
         <sys_overrides/>
         <sys_package display_value="My Travels" source="x_530258_my_travel">60ec43c02fa35010e6401e282799b612</sys_package>
         <sys_policy/>
         <sys_scope display_value="My Travels">60ec43c02fa35010e6401e282799b612</sys_scope>
-        <sys_update_name>sys_app_module_b51ff3142fe31010e6401e282799b615</sys_update_name>
+        <sys_update_name>sys_app_module_26ea02412fef5010e6401e282799b6b3</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-27 19:31:58</sys_updated_on>
+        <sys_updated_on>2020-09-27 19:31:39</sys_updated_on>
         <timeline_page/>
-        <title>My Travels</title>
+        <title>My Requests</title>
         <uncancelable>false</uncancelable>
         <view_name/>
         <window_name/>
