@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>false</active>
+        <api_name>x_530258_my_travel.TravelUtil</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>TravelUtil</name>
+        <script><![CDATA[var TravelUtil = Class.create();
+TravelUtil.prototype = {
+
+	CalculateDays : function(date1, date2){
+	var dur = gs.dateDiff(date1, date2, false);
+},
+	
+    type: 'TravelUtil'
+};
+]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-27 22:19:29</sys_created_on>
+        <sys_id>b3007a0d2f239010e6401e282799b63e</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>TravelUtil</sys_name>
+        <sys_package display_value="My Travels" source="x_530258_my_travel">60ec43c02fa35010e6401e282799b612</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="My Travels">60ec43c02fa35010e6401e282799b612</sys_scope>
+        <sys_update_name>sys_script_include_b3007a0d2f239010e6401e282799b63e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-28 01:16:33</sys_updated_on>
+    </sys_script_include>
+</record_update>

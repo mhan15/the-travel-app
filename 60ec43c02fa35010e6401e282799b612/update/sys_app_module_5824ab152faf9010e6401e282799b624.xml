@@ -10,31 +10,31 @@
         <image/>
         <link_type>LIST</link_type>
         <map_page/>
-        <mobile_title>Travels</mobile_title>
+        <mobile_title>All</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
         <name>x_530258_my_travel_travels</name>
-        <order>200</order>
+        <order>800</order>
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
-        <roles>x_530258_my_travel.user,x_530258_my_travel.admin</roles>
+        <roles>x_530258_my_travel.admin</roles>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-09-25 20:02:21</sys_created_on>
+        <sys_created_on>2020-09-28 20:39:27</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>b51ff3142fe31010e6401e282799b615</sys_id>
-        <sys_mod_count>8</sys_mod_count>
-        <sys_name>My Travels</sys_name>
+        <sys_id>5824ab152faf9010e6401e282799b624</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>All</sys_name>
         <sys_overrides/>
         <sys_package display_value="My Travels" source="x_530258_my_travel">60ec43c02fa35010e6401e282799b612</sys_package>
         <sys_policy/>
         <sys_scope display_value="My Travels">60ec43c02fa35010e6401e282799b612</sys_scope>
-        <sys_update_name>sys_app_module_b51ff3142fe31010e6401e282799b615</sys_update_name>
+        <sys_update_name>sys_app_module_5824ab152faf9010e6401e282799b624</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-28 19:16:03</sys_updated_on>
+        <sys_updated_on>2020-09-28 20:39:27</sys_updated_on>
         <timeline_page/>
-        <title>My Travels</title>
+        <title>All</title>
         <uncancelable>false</uncancelable>
         <view_name/>
         <window_name/>

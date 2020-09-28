@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>calculate days requested by changing travel starting date</description>
+        <field>from</field>
+        <global>true</global>
+        <isolate_script>false</isolate_script>
+        <messages/>
+        <name>Auto-fill Days on From</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading || newValue === '') {
+        return;
+    }
+
+    // get user input dates and convert to JS format
+    var dt1 = g_form.getValue('from');
+    var dt2 = g_form.getValue('to');
+
+    var new_dt1 = dt1[5] + dt1[6] + '/' + dt1[8] + dt1[9] + '/' + dt1[0] + dt1[1] + dt1[2] + dt1[3];
+    var new_dt2 = dt2[5] + dt2[6] + '/' + dt2[8] + dt2[9] + '/' + dt2[0] + dt2[1] + dt2[2] + dt2[3];
+
+    // create JS Date() object
+    var date1 = new Date(new_dt1);
+    var date2 = new Date(new_dt2);
+	
+    // To calculate the time difference of two dates in milliseconds
+    var diff_ms = date2.getTime() - date1.getTime();
+
+    // To calculate the no. of days between two dates, starting day included
+    var diff_days = diff_ms / (1000 * 3600 * 24) + 1;
+    if (diff_days <= 0) {
+        g_form.addErrorMessage('Invalid dates. The To field must be a further date than the From field.');
+        g_form.setValue('days', 'Invalid inputs');
+    } else {
+        //set days field value
+        g_form.clearMessages();
+        g_form.setValue('days', diff_days);
+    }
+
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-27 21:58:35</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f93caa492f239010e6401e282799b6d6</sys_id>
+        <sys_mod_count>40</sys_mod_count>
+        <sys_name>Auto-fill Days on From</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="My Travels" source="x_530258_my_travel">60ec43c02fa35010e6401e282799b612</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My Travels">60ec43c02fa35010e6401e282799b612</sys_scope>
+        <sys_update_name>sys_script_client_f93caa492f239010e6401e282799b6d6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-28 17:58:43</sys_updated_on>
+        <table>x_530258_my_travel_travels</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="DELETE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_530258_my_travel_travels</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>auto fill days</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+    gs.addInfoMessage(current.from);
+
+    var date1 = new GlideDate(current.from.getDisplayValueInternal());
+    var date2 = new GlideDate(current.to.getDisplayValueInternal());
+
+    var dur = GlideDate.subtract(date1, date2);
+    gs.addInfoMessage(dur.getNumericValue());
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-27 23:10:36</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7efb32452f639010e6401e282799b61c</sys_id>
+        <sys_mod_count>33</sys_mod_count>
+        <sys_name>auto fill days</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="My Travels" source="x_530258_my_travel">60ec43c02fa35010e6401e282799b612</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My Travels">60ec43c02fa35010e6401e282799b612</sys_scope>
+        <sys_update_name>sys_script_7efb32452f639010e6401e282799b61c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-28 00:40:16</sys_updated_on>
+        <template/>
+        <when>before_display</when>
+    </sys_script>
+    <sys_translated_text action="DELETE" query="documentkey=7efb32452f639010e6401e282799b61c"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="My Travels">60ec43c02fa35010e6401e282799b612</application>
+        <file_path/>
+        <instance_id>9f9c4f3cdb899b0c439ef70fbf961913</instance_id>
+        <instance_name>dev53617</instance_name>
+        <name>sys_script_7efb32452f639010e6401e282799b61c</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;x_530258_my_travel_travels&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition/&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;auto fill days&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+    gs.addInfoMessage(current.from);
+
+    var date1 = new GlideDate(current.from.getDisplayValueInternal());
+    var date2 = new GlideDate(current.to.getDisplayValueInternal());
+
+    var dur = GlideDate.subtract(date1, date2);
+    gs.addInfoMessage(dur.getNumericValue());
+
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-09-27 23:10:36&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;7efb32452f639010e6401e282799b61c&lt;/sys_id&gt;&lt;sys_mod_count&gt;33&lt;/sys_mod_count&gt;&lt;sys_name&gt;auto fill days&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="My Travels" source="x_530258_my_travel"&gt;60ec43c02fa35010e6401e282799b612&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="My Travels"&gt;60ec43c02fa35010e6401e282799b612&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_7efb32452f639010e6401e282799b61c&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-09-28 00:40:16&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;before_display&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=7efb32452f639010e6401e282799b61c"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1492727180</payload_hash>
+        <record_name>auto fill days</record_name>
+        <reverted_from/>
+        <source>7d2dcf802fa35010e6401e282799b63a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-28 00:40:16</sys_created_on>
+        <sys_id>18e113452fa39010e6401e282799b642</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>174d2272a090000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-28 00:40:16</sys_updated_on>
+        <type>Business Rule</type>
+        <update_guid>dce11345bfa39010aab188299db3d441</update_guid>
+        <update_guid_history>dce11345bfa39010aab188299db3d441:-1492727180,b7a1d305d7a390108be76925b9f92d3c:-1768939455,20b017057aa39010a83ce79d00f611a1:1429533398,2380dfc11da390107d39c5b86f5e06ed:-848560925,2b3093c1a0a390100510004d834d37ad:-269687014,6c201fc18da390105b42b48c3b2b5b70:913956824,2c001fc160a3901073eaf5ca3d7aca36:2039628757,f0efcf81f0a3901017f6e616b3172bc5:-538466727,b05f07c19aa39010d1bbd5ebd0b6844f:1758521306,982fcf81a6a39010076aaec7942aa314:1085214439,6ffe878106a39010e1652c90da640f19:-910532136,63ee8f8172a390106fa64f65f64465ce:1223812182,cc3e0381b1a39010f92911b637a977d4:1024182571,e0bd0f418fa39010b8dda5adcd55113c:777335643,109d0f416aa39010847735ef3bd91d2d:-1073273047,303d4b4156a3901078cd1efb0a3da758:137242002,df6ccbcd8f639010f900f2b64318ded3:-546330999,116c07cdff63901034c99a4eba70f3a5:1715952828,a1a58fc9566390102710157452b33450:-1547773126,b0654fc9006390108e9f4d151ff12261:-928013363,f345cbc94c6390102d7ce477101fc2be:759359477,4e35cbc9e1639010f7865f10779093b7:-2091555793,efe447c9f76390107b8552d05e6716f1:2003920144,2fb407c9db639010de04a3508b943613:-1270608336,15a407c94e639010380443e2da8c190c:-2134876846,c2848f89e1639010df8a25aa0854ea7a:-2085857256,3024cb89e0639010beb229f2cca64390:203598602,f0f3cb8977639010c15d4f5ff73cb319:1085874895,e2e287493f639010959e6b7daa974b39:1656871655,600283494763901058b338640875804e:-1657618242,748df64573639010c6a0f788f165ac73:1167667825,435dfe450e639010c851a29ab36e4c2a:-1657618242</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-28 00:42:17</sys_created_on>
+        <sys_db_object display_value="" name="sys_script">sys_script</sys_db_object>
+        <sys_id>16fd496b5f7740a586f4b41272a32b41</sys_id>
+        <sys_metadata>7efb32452f639010e6401e282799b61c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>auto fill days</sys_name>
+        <sys_package display_value="My Travels" source="x_530258_my_travel">60ec43c02fa35010e6401e282799b612</sys_package>
+        <sys_parent display_value="Travels">b0e5ebbc2fe75010e6401e282799b668</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="My Travels">60ec43c02fa35010e6401e282799b612</sys_scope>
+        <sys_scope_delete display_value="">2308881f79d044a8b03a751b37bcee40</sys_scope_delete>
+        <sys_update_name>sys_script_7efb32452f639010e6401e282799b61c</sys_update_name>
+        <sys_update_version display_value="sys_script_7efb32452f639010e6401e282799b61c">18e113452fa39010e6401e282799b642</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-28 00:42:17</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
