@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="priority" table="x_530258_my_travel_travels" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>priority</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>1 - Critical</label>
+            <language>en</language>
+            <name>x_530258_my_travel_travels</name>
+            <sequence>0</sequence>
+            <synonyms>p1,p1s,p1's</synonyms>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-09-29 20:08:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>34f6a8712f271010e6401e282799b64e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-09-29 20:08:54</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>priority</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>2 - High</label>
+            <language>en</language>
+            <name>x_530258_my_travel_travels</name>
+            <sequence>1</sequence>
+            <synonyms>p2,p2s,p2's</synonyms>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-09-29 20:08:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>74f6a8712f271010e6401e282799b650</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-09-29 20:08:54</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>priority</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>3 - Moderate</label>
+            <language>en</language>
+            <name>x_530258_my_travel_travels</name>
+            <sequence>2</sequence>
+            <synonyms>p3,p3s,p3's</synonyms>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-09-29 20:08:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fcf6a8712f271010e6401e282799b651</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-09-29 20:08:54</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>priority</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>4 - Low</label>
+            <language>en</language>
+            <name>x_530258_my_travel_travels</name>
+            <sequence>3</sequence>
+            <synonyms>p4,p4s,p4's</synonyms>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-09-29 20:08:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>78f6a8712f271010e6401e282799b653</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-09-29 20:08:54</sys_updated_on>
+            <value>4</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>priority</element>
+            <name>x_530258_my_travel_travels</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-09-29 20:08:54</sys_created_on>
+            <sys_id>bcf6a8712f271010e6401e282799b64e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>priority</sys_name>
+            <sys_package display_value="My Travels" source="x_530258_my_travel">60ec43c02fa35010e6401e282799b612</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="My Travels">60ec43c02fa35010e6401e282799b612</sys_scope>
+            <sys_update_name>sys_choice_x_530258_my_travel_travels_priority</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-09-29 20:08:54</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

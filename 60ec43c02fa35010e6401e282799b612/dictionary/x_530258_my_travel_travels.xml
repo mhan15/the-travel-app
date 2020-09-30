@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="task" label="Travels" max_length="40" name="x_530258_my_travel_travels" sizeclass="3" type="collection">
+    <element extends="task" label="Travels" max_length="40" name="x_530258_my_travel_travels" sizeclass="4" type="collection">
         <element attributes="encode_utf8=false" label="Additional approver" max_length="32" name="additional_approver" reference="sys_user" type="reference"/>
         <element attributes="encode_utf8=false" label="Approver" max_length="32" name="approver" reference="sys_user_group" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="City" max_length="40" name="city" type="string"/>
         <element attributes="encode_utf8=false" label="Country" max_length="32" name="country" reference="core_country" type="reference"/>
         <element label="Days requested" max_length="40" name="days" type="integer"/>
+        <element attributes="omit_sys_original=true" label="Expense" max_length="20" name="expense" type="currency"/>
         <element attributes="edge_encryption_enabled=true" label="Date from" mandatory="true" max_length="40" name="from" type="glide_date"/>
         <element attributes="edge_encryption_enabled=true" label="Local POC" max_length="40" name="local_poc" type="string"/>
         <element label="Overseas travel" max_length="40" name="overseas" type="boolean"/>
