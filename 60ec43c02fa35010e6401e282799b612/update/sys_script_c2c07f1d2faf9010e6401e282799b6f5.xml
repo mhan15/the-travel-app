@@ -18,7 +18,7 @@
         <filter_condition/>
         <is_rest>false</is_rest>
         <message/>
-        <name>Set states to Waiting for Approval</name>
+        <name>Set State and Approval on intert</name>
         <order>100</order>
         <priority>100</priority>
         <rest_method/>
@@ -38,16 +38,16 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>c2c07f1d2faf9010e6401e282799b6f5</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>Set states to Waiting for Approval</sys_name>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Set State and Approval on intert</sys_name>
         <sys_overrides/>
         <sys_package display_value="My Travels" source="x_530258_my_travel">60ec43c02fa35010e6401e282799b612</sys_package>
         <sys_policy/>
         <sys_scope display_value="My Travels">60ec43c02fa35010e6401e282799b612</sys_scope>
         <sys_update_name>sys_script_c2c07f1d2faf9010e6401e282799b6f5</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-28 21:36:04</sys_updated_on>
-        <template>state=2^EQ</template>
+        <sys_updated_on>2020-09-30 17:06:34</sys_updated_on>
+        <template>state=2^approval=requested^EQ</template>
         <when>before</when>
     </sys_script>
     <sys_translated_text action="delete_multiple" query="documentkey=c2c07f1d2faf9010e6401e282799b6f5"/>

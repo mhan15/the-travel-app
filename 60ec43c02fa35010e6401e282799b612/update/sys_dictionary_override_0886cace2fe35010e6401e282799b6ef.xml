@@ -5,30 +5,30 @@
         <base_table>task</base_table>
         <calculation/>
         <calculation_override>false</calculation_override>
-        <default_value>1</default_value>
-        <default_value_override>true</default_value_override>
+        <default_value/>
+        <default_value_override>false</default_value_override>
         <dependent/>
         <dependent_override>false</dependent_override>
         <display_override>false</display_override>
-        <element>state</element>
+        <element>approval_history</element>
         <mandatory>false</mandatory>
         <mandatory_override>false</mandatory_override>
         <name>x_530258_my_travel_travels</name>
-        <read_only>false</read_only>
+        <read_only>true</read_only>
         <read_only_override>true</read_only_override>
         <reference_qual/>
         <reference_qual_override>false</reference_qual_override>
         <sys_class_name>sys_dictionary_override</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-09-27 07:39:28</sys_created_on>
-        <sys_id>4738ab302f2b5010e6401e282799b6e6</sys_id>
-        <sys_mod_count>6</sys_mod_count>
-        <sys_name>state</sys_name>
+        <sys_created_on>2020-09-30 21:44:51</sys_created_on>
+        <sys_id>0886cace2fe35010e6401e282799b6ef</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>approval_history</sys_name>
         <sys_package display_value="My Travels" source="x_530258_my_travel">60ec43c02fa35010e6401e282799b612</sys_package>
         <sys_policy/>
         <sys_scope display_value="My Travels">60ec43c02fa35010e6401e282799b612</sys_scope>
-        <sys_update_name>sys_dictionary_override_4738ab302f2b5010e6401e282799b6e6</sys_update_name>
+        <sys_update_name>sys_dictionary_override_0886cace2fe35010e6401e282799b6ef</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-10-01 14:29:24</sys_updated_on>
+        <sys_updated_on>2020-09-30 21:44:51</sys_updated_on>
     </sys_dictionary_override>
 </record_update>

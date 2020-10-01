@@ -14,31 +14,32 @@
     if (isLoading || newValue === '') {
         return;
     }
-	g_form.clearMessages();
-	
+    g_form.clearMessages();
+
     // get starting date
     var dt1 = g_form.getValue('from');
     var new_dt1 = dt1[5] + dt1[6] + '/' + dt1[8] + dt1[9] + '/' + dt1[0] + dt1[1] + dt1[2] + dt1[3];
     var date_from = new Date(new_dt1);
 
     // get today's date
-    var today = new Date().getDate();
-//     var dd = String(today.getDate()).padStart(2, '0');
-//     var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
-//     var yyyy = today.getFullYear();
-	
-// 	today = mm + '/' + dd + '/' + yyyy;
-// 	var td = new Date(today);
-	
-	// get difference between two dates
-	var diff_ms = date_from.getTime() - today.getTime();
-	var diff_days = diff_ms / (1000 * 3600 * 24) + 1;
+    var today = new Date();
+    var dd = String(today.getDate()).padStart(2, '0');
+    var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
+    var yyyy = today.getFullYear();
 
-	//display info message if starting date is too close to today
-	if(diff_days > 0 && diff_days <=3){
-		g_form.addInfoMessage('Travel starting date is too close to today. Approvers may not have enough time to approve this request.');
-	}
-    
+    today = mm + '/' + dd + '/' + yyyy;
+	var td = new Date(today);
+
+    // get difference between two dates
+    var diff_ms = date_from.getTime(); - td.getTime();
+    var diff_days = diff_ms / (1000 * 3600 * 24) + 1;
+
+    //display info message if starting date is too close to today
+    if (diff_days > 0 && diff_days <= 3) {
+        g_form.hideFieldMsg('from', ture);
+        g_form.showFieldMsg('The start date is too close to today. There may not be enought time for approval.');
+    }
+
 
 }]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
@@ -47,7 +48,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>3cdbaf592faf9010e6401e282799b672</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_name>Info box if starting date is too near</sys_name>
         <sys_overrides/>
         <sys_package display_value="My Travels" source="x_530258_my_travel">60ec43c02fa35010e6401e282799b612</sys_package>
@@ -55,7 +56,7 @@
         <sys_scope display_value="My Travels">60ec43c02fa35010e6401e282799b612</sys_scope>
         <sys_update_name>sys_script_client_3cdbaf592faf9010e6401e282799b672</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-28 21:24:04</sys_updated_on>
+        <sys_updated_on>2020-09-30 19:45:16</sys_updated_on>
         <table>x_530258_my_travel_travels</table>
         <type>onChange</type>
         <ui_type>10</ui_type>
