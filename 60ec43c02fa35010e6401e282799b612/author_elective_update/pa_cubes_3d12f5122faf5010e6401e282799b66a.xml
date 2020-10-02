@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_cubes">
+    <pa_cubes action="DELETE">
+        <benchmarking>false</benchmarking>
+        <conditions table="x_58872_needit_needit">u_when_neededONThis month@javascript:gs.beginningOfThisMonth()@javascript:gs.endOfThisMonth()<item endquery="false" field="u_when_needed" goto="false" newquery="false" operator="ON" or="false" value="This month@javascript:gs.beginningOfThisMonth()@javascript:gs.endOfThisMonth()"/>
+        </conditions>
+        <description>NeedIt requests due this month</description>
+        <facts_table>x_58872_needit_needit</facts_table>
+        <facts_table_pk/>
+        <facts_table_pktable/>
+        <facts_table_pkview/>
+        <frequency>40</frequency>
+        <max_record_fetch_count>50000</max_record_fetch_count>
+        <name>NeedIt.ThisMonth</name>
+        <override_record_collection>false</override_record_collection>
+        <report_source/>
+        <report_source_updated_at/>
+        <sys_class_name>pa_cubes</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-01 14:55:56</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3d12f5122faf5010e6401e282799b66a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NeedIt.ThisMonth</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="My Travels" source="x_530258_my_travel">60ec43c02fa35010e6401e282799b612</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My Travels">60ec43c02fa35010e6401e282799b612</sys_scope>
+        <sys_update_name>pa_cubes_3d12f5122faf5010e6401e282799b66a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-01 14:55:56</sys_updated_on>
+    </pa_cubes>
+    <sys_translated_text action="DELETE" query="documentkey=3d12f5122faf5010e6401e282799b66a"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="My Travels">60ec43c02fa35010e6401e282799b612</application>
+        <file_path/>
+        <instance_id>9f9c4f3cdb899b0c439ef70fbf961913</instance_id>
+        <instance_name>dev53617</instance_name>
+        <name>pa_cubes_3d12f5122faf5010e6401e282799b66a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_cubes"><pa_cubes action="INSERT_OR_UPDATE"><benchmarking>false</benchmarking><conditions table="x_58872_needit_needit">u_when_neededONThis month@javascript:gs.beginningOfThisMonth()@javascript:gs.endOfThisMonth()<item endquery="false" field="u_when_needed" goto="false" newquery="false" operator="ON" or="false" value="This month@javascript:gs.beginningOfThisMonth()@javascript:gs.endOfThisMonth()"/></conditions><description>NeedIt requests due this month</description><facts_table>x_58872_needit_needit</facts_table><facts_table_pk/><facts_table_pktable/><facts_table_pkview/><frequency>40</frequency><max_record_fetch_count>50000</max_record_fetch_count><name>NeedIt.ThisMonth</name><override_record_collection>false</override_record_collection><report_source/><report_source_updated_at/><sys_class_name>pa_cubes</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-10-01 14:55:56</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>3d12f5122faf5010e6401e282799b66a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>NeedIt.ThisMonth</sys_name><sys_overrides/><sys_package display_value="My Travels" source="x_530258_my_travel">60ec43c02fa35010e6401e282799b612</sys_package><sys_policy/><sys_scope display_value="My Travels">60ec43c02fa35010e6401e282799b612</sys_scope><sys_update_name>pa_cubes_3d12f5122faf5010e6401e282799b66a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-10-01 14:55:56</sys_updated_on></pa_cubes><sys_translated_text action="delete_multiple" query="documentkey=3d12f5122faf5010e6401e282799b66a"/></record_update>]]></payload>
+        <payload_hash>1791863043</payload_hash>
+        <record_name>NeedIt.ThisMonth</record_name>
+        <reverted_from/>
+        <source>7d2dcf802fa35010e6401e282799b63a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-01 14:55:56</sys_created_on>
+        <sys_id>337235122faf5010e6401e282799b609</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>174e4a9a2800000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-01 14:55:56</sys_updated_on>
+        <type>Indicator Source</type>
+        <update_guid>7b72351245af50105e1c8e0b25f75008</update_guid>
+        <update_guid_history>7b72351245af50105e1c8e0b25f75008:1791863043</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="NeedIt.ThisMonth">1a6371522faf5010e6401e282799b6d6</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-01 14:59:56</sys_created_on>
+        <sys_db_object display_value="" name="pa_cubes">pa_cubes</sys_db_object>
+        <sys_id>80c3e389ba3e47998d06ba2f7c2aeaf1</sys_id>
+        <sys_metadata>3d12f5122faf5010e6401e282799b66a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NeedIt.ThisMonth</sys_name>
+        <sys_package display_value="My Travels" source="x_530258_my_travel">60ec43c02fa35010e6401e282799b612</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="My Travels">60ec43c02fa35010e6401e282799b612</sys_scope>
+        <sys_scope_delete display_value="">2308881f79d044a8b03a751b37bcee40</sys_scope_delete>
+        <sys_update_name>pa_cubes_3d12f5122faf5010e6401e282799b66a</sys_update_name>
+        <sys_update_version display_value="pa_cubes_3d12f5122faf5010e6401e282799b66a">337235122faf5010e6401e282799b609</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-01 14:59:56</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

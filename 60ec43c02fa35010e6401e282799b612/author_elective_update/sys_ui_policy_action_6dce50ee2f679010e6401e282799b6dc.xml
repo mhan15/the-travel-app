@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field>purpose</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-02 03:29:04</sys_created_on>
+        <sys_id>6dce50ee2f679010e6401e282799b6dc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>purpose</sys_name>
+        <sys_package display_value="My Travels" source="x_530258_my_travel">60ec43c02fa35010e6401e282799b612</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My Travels">60ec43c02fa35010e6401e282799b612</sys_scope>
+        <sys_update_name>sys_ui_policy_action_6dce50ee2f679010e6401e282799b6dc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-02 03:29:04</sys_updated_on>
+        <table>x_530258_my_travel_travels</table>
+        <ui_policy display_value="Read only if not new">fc2e58ae2f679010e6401e282799b624</ui_policy>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="My Travels">60ec43c02fa35010e6401e282799b612</application>
+        <file_path/>
+        <instance_id>9f9c4f3cdb899b0c439ef70fbf961913</instance_id>
+        <instance_name>dev53617</instance_name>
+        <name>sys_ui_policy_action_6dce50ee2f679010e6401e282799b6dc</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>true</disabled><field>purpose</field><mandatory>ignore</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-10-02 03:29:04</sys_created_on><sys_id>6dce50ee2f679010e6401e282799b6dc</sys_id><sys_mod_count>0</sys_mod_count><sys_name>purpose</sys_name><sys_package display_value="My Travels" source="x_530258_my_travel">60ec43c02fa35010e6401e282799b612</sys_package><sys_policy/><sys_scope display_value="My Travels">60ec43c02fa35010e6401e282799b612</sys_scope><sys_update_name>sys_ui_policy_action_6dce50ee2f679010e6401e282799b6dc</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-10-02 03:29:04</sys_updated_on><table>x_530258_my_travel_travels</table><ui_policy display_value="Read only if not new">fc2e58ae2f679010e6401e282799b624</ui_policy><visible>ignore</visible></sys_ui_policy_action></record_update>]]></payload>
+        <payload_hash>1358220604</payload_hash>
+        <record_name>purpose</record_name>
+        <reverted_from/>
+        <source>7d2dcf802fa35010e6401e282799b63a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-02 03:29:04</sys_created_on>
+        <sys_id>84ee90ee2f679010e6401e282799b67b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>174e75b262e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-02 03:29:04</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>ccee90eeea679010d944261739eab47a</update_guid>
+        <update_guid_history>ccee90eeea679010d944261739eab47a:1358220604</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-02 03:29:50</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>3a7e75e3da7444f0981eb69ca2dfc2a4</sys_id>
+        <sys_metadata>6dce50ee2f679010e6401e282799b6dc</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>purpose</sys_name>
+        <sys_package display_value="My Travels" source="x_530258_my_travel">60ec43c02fa35010e6401e282799b612</sys_package>
+        <sys_parent display_value="Read only if not new">fc2e58ae2f679010e6401e282799b624</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="My Travels">60ec43c02fa35010e6401e282799b612</sys_scope>
+        <sys_scope_delete display_value="">2308881f79d044a8b03a751b37bcee40</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_6dce50ee2f679010e6401e282799b6dc</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_6dce50ee2f679010e6401e282799b6dc">84ee90ee2f679010e6401e282799b67b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-02 03:29:50</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

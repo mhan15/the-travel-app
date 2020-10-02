@@ -16,15 +16,17 @@
         <run_start>2020-09-30 20:35:06</run_start>
         <run_time>1970-01-01 10:05:00</run_time>
         <run_type>daily</run_type>
-        <script><![CDATA[var approvalNeeded = new GlideRecord('x_530258_my_travel_travels');
-approvalNeeded.addQuery('state', '=', 2).addOrCondition('state', '=', 3);
+        <script><![CDATA[// query all awaiting approval records
+var approvalNeeded = new GlideRecord('x_530258_my_travel_travels');
+approvalNeeded.addQuery('state', '=', 22).addOrCondition('state', '=', 23);
 
 approvalNeeded.query();
 
 while (approvalNeeded.next()) {
-
+	// to get start date
     var start_gdt = new GlideDateTime(approvalNeeded.getDisplayValue('from'));
-
+	
+	// to get days before start date
     var dur = new TravelUtil().daysBeforeStart(start_gdt);
 	
 
@@ -39,8 +41,8 @@ while (approvalNeeded.next()) {
     } else if (dur > 30) {
         approvalNeeded.urgency = 3;
     } else {
-        approvalNeeded.state = 10;
-        approvalNeeded.approval_history = "Auto update: Record State has been set to Overdue because it was not approved before start date.";
+        approvalNeeded.state = 7;
+        approvalNeeded.approval_history = "Auto update: Record State has been set to Failed to Approve because it was not approved before start date.";
     }
     approvalNeeded.update();
 }]]></script>
@@ -48,14 +50,14 @@ while (approvalNeeded.next()) {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-09-30 20:50:25</sys_created_on>
         <sys_id>2286bdc22fe35010e6401e282799b697</sys_id>
-        <sys_mod_count>18</sys_mod_count>
+        <sys_mod_count>23</sys_mod_count>
         <sys_name>Auto update Urgency</sys_name>
         <sys_package display_value="My Travels" source="x_530258_my_travel">60ec43c02fa35010e6401e282799b612</sys_package>
         <sys_policy/>
         <sys_scope display_value="My Travels">60ec43c02fa35010e6401e282799b612</sys_scope>
         <sys_update_name>sysauto_script_2286bdc22fe35010e6401e282799b697</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-10-01 14:15:53</sys_updated_on>
+        <sys_updated_on>2020-10-02 01:17:01</sys_updated_on>
         <time_zone/>
         <upgrade_safe>false</upgrade_safe>
     </sysauto_script>

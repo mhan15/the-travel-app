@@ -1,15 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element extends="task" label="Travels" max_length="40" name="x_530258_my_travel_travels" sizeclass="2" type="collection">
         <element attributes="encode_utf8=false" label="Additional approver" max_length="32" name="additional_approver" reference="sys_user" type="reference"/>
-        <element choice="3" label="Approval state" max_length="40" name="approval_state" read_only="true" type="choice">
-            <choice>
-                <element inactive_on_update="false" label="Additional approval requested" value="3"/>
-                <element inactive_on_update="false" label="Additional approver approved" value="4"/>
-                <element inactive_on_update="false" label="Manager approval requested" value="1"/>
-                <element inactive_on_update="false" label="Manager approved" value="2"/>
-                <element inactive_on_update="false" label="Rejected" value="5"/>
-            </choice>
-        </element>
         <element attributes="encode_utf8=false" label="Approver" max_length="32" name="approver" reference="sys_user_group" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="City" max_length="40" name="city" type="string"/>
         <element attributes="encode_utf8=false" label="Country" max_length="32" name="country" reference="core_country" type="reference"/>
