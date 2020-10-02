@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
     <sys_ui_policy_action action="INSERT_OR_UPDATE">
         <cleared>false</cleared>
-        <disabled>false</disabled>
-        <field>approver</field>
+        <disabled>ignore</disabled>
+        <field>approval</field>
         <mandatory>ignore</mandatory>
         <sys_class_name>sys_ui_policy_action</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-09-30 19:48:04</sys_created_on>
-        <sys_id>0ebba18a2fa35010e6401e282799b62f</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>approver</sys_name>
+        <sys_created_on>2020-10-02 16:05:21</sys_created_on>
+        <sys_id>a4fb872a2f6f9010e6401e282799b659</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>approval</sys_name>
         <sys_package display_value="My Travels" source="x_530258_my_travel">60ec43c02fa35010e6401e282799b612</sys_package>
         <sys_policy/>
         <sys_scope display_value="My Travels">60ec43c02fa35010e6401e282799b612</sys_scope>
-        <sys_update_name>sys_ui_policy_action_0ebba18a2fa35010e6401e282799b62f</sys_update_name>
+        <sys_update_name>sys_ui_policy_action_a4fb872a2f6f9010e6401e282799b659</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-10-02 16:07:31</sys_updated_on>
+        <sys_updated_on>2020-10-02 16:05:21</sys_updated_on>
         <table>x_530258_my_travel_travels</table>
-        <ui_policy display_value="Approver not visible if empty">c89bed4a2fa35010e6401e282799b6f8</ui_policy>
+        <ui_policy display_value="Hide field if new record">214b832a2f6f9010e6401e282799b6d4</ui_policy>
         <visible>false</visible>
     </sys_ui_policy_action>
 </record_update>

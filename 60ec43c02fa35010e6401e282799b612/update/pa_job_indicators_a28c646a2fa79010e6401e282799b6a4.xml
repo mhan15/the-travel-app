@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_job_indicators">
+    <pa_job_indicators action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <collect>1</collect>
+        <collect_indicator>true</collect_indicator>
+        <display>Travel Daily - Travel.DailyUrgentRequest</display>
+        <indicator display_value="Travel.DailyUrgentRequest">22db246a2fa79010e6401e282799b6b1</indicator>
+        <job display_value="Travel Daily">c418ac662fa79010e6401e282799b6d7</job>
+        <sys_class_name>pa_job_indicators</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-02 04:28:46</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a28c646a2fa79010e6401e282799b6a4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Travel.DailyUrgentRequest.Travel Daily</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="My Travels" source="x_530258_my_travel">60ec43c02fa35010e6401e282799b612</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My Travels">60ec43c02fa35010e6401e282799b612</sys_scope>
+        <sys_update_name>pa_job_indicators_a28c646a2fa79010e6401e282799b6a4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-02 04:28:46</sys_updated_on>
+    </pa_job_indicators>
+</record_update>

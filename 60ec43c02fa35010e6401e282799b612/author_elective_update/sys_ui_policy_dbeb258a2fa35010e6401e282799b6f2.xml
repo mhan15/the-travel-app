@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_policy">
+    <sys_ui_policy action="DELETE">
+        <active>true</active>
+        <conditions table="x_530258_my_travel_travels">additional_approverISNOTEMPTY^EQ<item endquery="false" field="additional_approver" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </conditions>
+        <description/>
+        <global>false</global>
+        <inherit>false</inherit>
+        <isolate_script>true</isolate_script>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>100</order>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>false</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+
+}]]></script_false>
+        <script_true><![CDATA[function onCondition() {
+
+}]]></script_true>
+        <set_values/>
+        <short_description>Additional approver not visible if empty</short_description>
+        <sys_class_name>sys_ui_policy</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-30 19:49:18</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>dbeb258a2fa35010e6401e282799b6f2</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Additional approver not visible if empty</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="My Travels" source="x_530258_my_travel">60ec43c02fa35010e6401e282799b612</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My Travels">60ec43c02fa35010e6401e282799b612</sys_scope>
+        <sys_update_name>sys_ui_policy_dbeb258a2fa35010e6401e282799b6f2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-30 19:54:24</sys_updated_on>
+        <table>x_530258_my_travel_travels</table>
+        <ui_type>0</ui_type>
+        <view display_value="Self_service" name="Self_service">Self_service</view>
+    </sys_ui_policy>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="My Travels">60ec43c02fa35010e6401e282799b612</application>
+        <file_path/>
+        <instance_id>9f9c4f3cdb899b0c439ef70fbf961913</instance_id>
+        <instance_name>dev53617</instance_name>
+        <name>sys_ui_policy_dbeb258a2fa35010e6401e282799b6f2</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_policy"&gt;&lt;sys_ui_policy action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;conditions table="x_530258_my_travel_travels"&gt;additional_approverISNOTEMPTY^EQ&lt;item endquery="false" field="additional_approver" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/conditions&gt;&lt;description/&gt;&lt;global&gt;false&lt;/global&gt;&lt;inherit&gt;false&lt;/inherit&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;model_id/&gt;&lt;model_table/&gt;&lt;on_load&gt;true&lt;/on_load&gt;&lt;order&gt;100&lt;/order&gt;&lt;reverse_if_false&gt;true&lt;/reverse_if_false&gt;&lt;run_scripts&gt;false&lt;/run_scripts&gt;&lt;script_false&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_false&gt;&lt;script_true&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_true&gt;&lt;set_values/&gt;&lt;short_description&gt;Additional approver not visible if empty&lt;/short_description&gt;&lt;sys_class_name&gt;sys_ui_policy&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-09-30 19:49:18&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;dbeb258a2fa35010e6401e282799b6f2&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name&gt;Additional approver not visible if empty&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="My Travels" source="x_530258_my_travel"&gt;60ec43c02fa35010e6401e282799b612&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="My Travels"&gt;60ec43c02fa35010e6401e282799b612&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_policy_dbeb258a2fa35010e6401e282799b6f2&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-09-30 19:54:24&lt;/sys_updated_on&gt;&lt;table&gt;x_530258_my_travel_travels&lt;/table&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view display_value="Self_service" name="Self_service"&gt;Self_service&lt;/view&gt;&lt;/sys_ui_policy&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1518842202</payload_hash>
+        <record_name>Additional approver not visible if empty</record_name>
+        <reverted_from/>
+        <source>7d2dcf802fa35010e6401e282799b63a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-30 19:54:24</sys_created_on>
+        <sys_id>c23da9ca2fa35010e6401e282799b644</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>174e09488030000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-30 19:54:24</sys_updated_on>
+        <type>UI Policy</type>
+        <update_guid>0e3da9ca3da350106b28c130006cbf43</update_guid>
+        <update_guid_history>0e3da9ca3da350106b28c130006cbf43:-1518842202,c32d25caafa3501092b7a21fec6530a8:-1977046362,a8cced8ae9a350101f001304f8198ee3:-2029202186,e70c2d4a7fa35010d7b377109e486824:946006925</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-02 16:09:08</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy">sys_ui_policy</sys_db_object>
+        <sys_id>3d718df0c5804d41b067b44868dd6961</sys_id>
+        <sys_metadata>dbeb258a2fa35010e6401e282799b6f2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Additional approver not visible if empty</sys_name>
+        <sys_package display_value="My Travels" source="x_530258_my_travel">60ec43c02fa35010e6401e282799b612</sys_package>
+        <sys_parent display_value="Travels">b0e5ebbc2fe75010e6401e282799b668</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="My Travels">60ec43c02fa35010e6401e282799b612</sys_scope>
+        <sys_scope_delete display_value="">2308881f79d044a8b03a751b37bcee40</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_dbeb258a2fa35010e6401e282799b6f2</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_dbeb258a2fa35010e6401e282799b6f2">c23da9ca2fa35010e6401e282799b644</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-02 16:09:08</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
